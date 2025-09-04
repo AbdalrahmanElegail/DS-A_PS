@@ -1,9 +1,7 @@
-﻿namespace Data_Structures_In_C_
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+﻿
+
+
+
             //Built-in Data Structures:
 
             //Array: A fixed-size collection of elements of the same type, stored contiguously in memory.
@@ -92,7 +90,3 @@
             var sortedArray = unsortedArray.OrderBy(x => x).ToArray(); // sortedArray is {1, 2, 5, 8}
 
             //------------------------------------------------------------------------------------------------------------------
-
-        }
-    }
-}
