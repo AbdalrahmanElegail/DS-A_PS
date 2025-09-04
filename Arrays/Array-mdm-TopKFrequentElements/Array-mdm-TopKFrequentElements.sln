@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array-mdm-TopKFrequentElements", "Array-mdm-TopKFrequentElements\Array-mdm-TopKFrequentElements.csproj", "{C6E423B1-31F3-45C4-A5F3-D78F1052F6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6E423B1-31F3-45C4-A5F3-D78F1052F6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E423B1-31F3-45C4-A5F3-D78F1052F6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E423B1-31F3-45C4-A5F3-D78F1052F6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E423B1-31F3-45C4-A5F3-D78F1052F6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {356341CA-5A27-4BE6-AB0C-41E19C0E01FB}
+	EndGlobalSection
+EndGlobal
