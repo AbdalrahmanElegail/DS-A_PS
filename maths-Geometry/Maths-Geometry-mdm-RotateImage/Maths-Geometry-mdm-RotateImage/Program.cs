@@ -1,4 +1,4 @@
-﻿namespace Maths_Geometry_ez_RotateImage
+﻿namespace Maths_Geometry_mdm_RotateImage
 {
     internal class Program
     {
@@ -13,9 +13,9 @@
 
             s.Rotate(matrix);
 
-            for(int i = 0; i < matrix.Length; i++)
+            for (int i = 0; i < matrix.Length; i++)
             {
-                for(int j = 0; j < matrix[i].Length; j++)
+                for (int j = 0; j < matrix[i].Length; j++)
                 {
                     Console.Write(matrix[i][j] + "  ");
                 }
@@ -30,9 +30,9 @@
         public void Rotate(int[][] matrix)
         {
             int n = matrix.Length;
-            for (int i= 0; i < (n+1)/2; i++)
+            for (int i = 0; i < (n + 1) / 2; i++)
             {
-                for(int j = i; j < n - i - 1; j++)
+                for (int j = i; j < n - i - 1; j++)
                 {
                     // save the top left position
                     int temp = matrix[i][j];

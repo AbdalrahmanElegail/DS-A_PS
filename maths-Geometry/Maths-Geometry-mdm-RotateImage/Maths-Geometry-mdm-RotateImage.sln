@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36429.23 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maths-Geometry-ez-RotateImage", "Maths-Geometry-ez-RotateImage\Maths-Geometry-ez-RotateImage.csproj", "{20B384A4-21E4-4019-92CA-17BB113D15D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maths-Geometry-mdm-RotateImage", "Maths-Geometry-mdm-RotateImage\Maths-Geometry-mdm-RotateImage.csproj", "{315719EE-4393-42DE-8F5F-28F7CEF9D19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{20B384A4-21E4-4019-92CA-17BB113D15D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20B384A4-21E4-4019-92CA-17BB113D15D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20B384A4-21E4-4019-92CA-17BB113D15D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20B384A4-21E4-4019-92CA-17BB113D15D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315719EE-4393-42DE-8F5F-28F7CEF9D19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315719EE-4393-42DE-8F5F-28F7CEF9D19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315719EE-4393-42DE-8F5F-28F7CEF9D19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315719EE-4393-42DE-8F5F-28F7CEF9D19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6E462BFA-8546-49A3-B10E-7A9AF6BA40A5}
+		SolutionGuid = {9FFA9A7F-AD2F-409F-B686-0098A0FBA42D}
 	EndGlobalSection
 EndGlobal
