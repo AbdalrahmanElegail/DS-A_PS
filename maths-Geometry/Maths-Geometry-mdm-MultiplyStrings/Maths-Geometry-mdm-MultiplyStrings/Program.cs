@@ -5,59 +5,38 @@
         static void Main(string[] args)
         {
             Solution solution = new Solution();
-            string num1 = "12300000000000000000000000000000" , num2 = "45600000000000000000000000000000";
+            string num1 = "1230000000000000000000000000000000000000000000000000", num2 = "45600000000000000000000000000000";
             string result = solution.Multiply(num1, num2);
             Console.WriteLine(result);
         }
     }
 
 
-    // Solution Using BigInteger datatype ==>  Time: O(max(n,m)^2)  Space: O(max(n,m))
+    // Using Grade-school multiplication ==>  Time: O(n*m)  Space: O(n+m)
     public class Solution
     {
         public string Multiply(string num1, string num2)
         {
-            (int n1, int n2) = GetIntegers(num1, num2);
+            if (num1 == "0" || num2 == "0")
+                return "0";
 
-            string result = GetString(n1*n2);
+            int n = num1.Length, m = num2.Length;
 
-            return result;
-        }
-
-        private (int, int) GetIntegers(string num1, string num2) 
-        {
-            int n1=0, n2=0;
-            foreach (char i in num1)
+            int[] result = new int[n + m];
+            for (int i = 0; i < n; i++)
             {
-                n1 *= 10;
-                n1 += i - '0';
-            }
-            foreach (char i in num2)
-            {
-                n2 *= 10;
-                n2 += i - '0';
-            }
-            return (n1, n2);
-        }
-        private string GetString(int num)
-        {
-            int digitsNum = 0, n=num;
-            while (n > 0)
-            {
-                n /= 10;
-                digitsNum++;
+                for (int j = 0; j < m; j++)
+                {
+                    result[i + j] += (num1[n - i - 1] - '0') * (num2[m - j - 1] - '0');
+                    result[i + j + 1] += result[i + j] / 10;
+                    result[i + j] %= 10;
+                }
             }
 
-            char[] resultChar = new char[digitsNum];
-            for (int i = digitsNum-1; i >= 0; i--) 
-            { 
-                int temp = num % 10;
-                num /= 10;
-                resultChar[i] = (char)(temp + '0');
-            }
-
-
-            return new string(resultChar);
+            if (result[^1] == 0)
+                return string.Join("", result.Reverse().Skip(1));
+            else
+                return string.Join("", result.Reverse());
         }
     }
 }
