@@ -4,9 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Solution solution = new Solution();
-            var res = solution.ReverseList(new ListNode { val = 5,  next = null });
-            Console.WriteLine($"{res.val},{res.next}");
         }
     }
     public class ListNode {
